@@ -36,7 +36,8 @@ Get a REST API `$ curl http://localhost:3000/posts/1`
   "title": "a title",
   "views": 100
 }
-}```
+
+```
 
 
 
