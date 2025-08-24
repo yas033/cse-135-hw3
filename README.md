@@ -10,9 +10,7 @@
 
 ## Usage
 
-Create a db.json or db.json5 file
-
-```{
+```Create a db.json or db.json5 file{
   "posts": [
     { "id": "1", "title": "a title", "views": 100 },
     { "id": "2", "title": "another title", "views": 200 }
@@ -25,9 +23,9 @@ Create a db.json or db.json5 file
     "name": "typicode"
 }```
 
-## Pass it to JSON Server CLI
 
-``$ npx json-server db.json``
+
+`` Pass it to JSON Server CLI{$ npx json-server db.json}``
 
 
 
