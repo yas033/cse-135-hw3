@@ -24,7 +24,7 @@ Create a db.json or db.json5 file
   "profile": {
     "name": "typicode"
   }
-}
+}`
 
 
 Pass it to JSON Server CLI
