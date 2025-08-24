@@ -12,8 +12,7 @@
 
 Create a db.json or db.json5 file
 
-`{
-
+``{
   "posts": [
   
     { "id": "1", "title": "a title", "views": 100 },
@@ -36,4 +35,4 @@ Create a db.json or db.json5 file
   
   }
   
-}`
+}``
