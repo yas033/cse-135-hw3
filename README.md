@@ -8,10 +8,8 @@
 
 `npm install json-server`
 
-## Usage
-
-```Create a db.json or db.json5 file{
-  "posts": [
+```{
+"posts": [
     { "id": "1", "title": "a title", "views": 100 },
     { "id": "2", "title": "another title", "views": 200 }
   ],
@@ -21,12 +19,24 @@
   ],
   "profile": {
     "name": "typicode"
+  }
+} 
+
+```
+
+Pass it to JSON Server CLI
+
+`$ npx json-server db.json`
+
+Get a REST API `$ curl http://localhost:3000/posts/1`
+
+```{
+{
+  "id": "1",
+  "title": "a title",
+  "views": 100
+}
 }```
-
-
-
-`` Pass it to JSON Server CLI{$ npx json-server db.json}``
-
 
 
 
