@@ -12,7 +12,7 @@
 
 Create a db.json or db.json5 file
 
-```{
+``{
   "posts": [
     { "id": "1", "title": "a title", "views": 100 },
     { "id": "2", "title": "another title", "views": 200 }
@@ -24,7 +24,7 @@ Create a db.json or db.json5 file
   "profile": {
     "name": "typicode"
   }
-}`
+}
 
 
 Pass it to JSON Server CLI
