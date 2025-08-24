@@ -25,3 +25,10 @@ Create a db.json or db.json5 file
     "name": "typicode"
   }
 }
+
+
+Pass it to JSON Server CLI
+
+```$ npx json-server db.json
+
+
