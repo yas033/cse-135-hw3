@@ -24,12 +24,12 @@ Create a db.json or db.json5 file
   "profile": {
     "name": "typicode"
   }
-}
+}```
 
-;
+## Pass it to JSON Server CLI
 
-Pass it to JSON Server CLI
+`$ npx json-server db.json`
 
-```$ npx json-server db.json
+
 
 
