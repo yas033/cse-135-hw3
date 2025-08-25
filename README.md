@@ -151,5 +151,5 @@ ProxyPassReverse /json http://localhost:3000
 
    Now your JSON server should be all configured! The base route for it is http://cse135.online/json
 
-   Test new URL `cse135.online/json` and `cse135.online/json/posts`
+   Test new URL http://cse135.online/json and http://cse135.online/json/posts
    
