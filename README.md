@@ -161,4 +161,32 @@ ProxyPassReverse /json http://localhost:3000
 
 
 ### Sign up Postman
-   
+
+Hit the endpoint with Postman, and get the feel of how a REST endpoint for a CRUD application works
+
+#### REST = Representational State Transfer
+
+It’s an architectural style for designing web APIs.
+
+Core idea: every resource (data) is represented by a URL.
+
+Example:
+
+`/posts` → represents the “posts” resource
+
+`/posts/1` → represents the post with `id=1`
+
+#### CRUD = Create, Read, Update, Delete
+
+These are the four basic operations you can perform on data.
+
+Action	Fullword	Meaning	                `HTTP Method in REST`	                    `JSON Server Example`
+
+'C'	     Create	    Add new data	        `POST`	                                    `POST /posts`
+
+'R'	     Read	    Retrieve data	        `GET`	                                    `GET /posts` or `GET /posts/1`
+
+'U'	     Update	    Modify existing data	`PUT` (replace) / `PATCH` (partial update)	`PUT /posts/1` or `PATCH /posts/1`
+                                            
+'D'	     Delete	    Remove data	            `DELETE`	                                `DELETE /posts/1`
+
