@@ -1,10 +1,10 @@
 # cse-135-hw3
 
-# Part 0
+## Part 0
 
-## JSON Server running
+### JSON Server running
 
-### npm install json-server ( Install and Usage )
+#### npm install json-server ( Install and Usage )
 
 `cd /var/www/cse135.online/public_html`
 
@@ -69,7 +69,7 @@ comments: 6 （GET/POST/PUT/PATCH/DELETE））
 profile: 3 （GET/PUT/PATCH）
 
 
-### Params 
+#### Params 
 `https://github.com/typicode/json-server/blob/main/README.md`
 
 give write access to db.json
@@ -120,9 +120,9 @@ after made the node server.js, we can run:
 Now, our server should be up and running at `cse135.online:3000` To test it, you can make a simple GET request to `cse135.online:3000/posts` and we get a small JSON packet (data in db.json/posts)in return.
 
 
-## Proxy setup
+### Proxy setup
 
-### To hide the :3000 port from the URL
+#### To hide the :3000 port from the URL
 
 1. Enable Apache proxy modules
 
