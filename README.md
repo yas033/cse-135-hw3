@@ -48,26 +48,29 @@ Get a REST API `$ curl http://localhost:3000/posts/1`
 
 Leave it open, and open a new terminal: Run `npx json-server --help` for a list of options
 
-posts: 6（GET/POST/PUT/PATCH/DELETE））
+### posts: 6 endpoints（GET/POST/PUT/PATCH/DELETE）
 
-GET /posts
+GET /posts → `GET /json/posts` → get all posts
 
-GET /posts/:id
+GET /posts/:id  → `GET /json/posts/1` → get post with id=1
 
-POST /posts
+POST /posts → `POST /json/posts` → add a new post
 
-PUT /posts/:id
+PUT /posts/:id → `PUT /json/posts/1` → replace a post with id=1
 
-PATCH /posts/:id
+PATCH /posts/:id → `PATCH /json/posts/1` → partially update post with id=1
 
-DELETE /posts/:id
+DELETE /posts/:id → `DELETE /json/posts/1` → remove post with id=1
 
+#### comments: 6 endpoints（GET/POST/PUT/PATCH/DELETE , same structure as posts)
 
+#### profile: 3 endpoints（GET/PUT/PATCH）
 
-comments: 6 （GET/POST/PUT/PATCH/DELETE））
+`GET /json/profile`
 
-profile: 3 （GET/PUT/PATCH）
+`PUT /json/profile`
 
+`PATCH /json/profile`
 
 #### Params 
 `https://github.com/typicode/json-server/blob/main/README.md`
@@ -152,4 +155,10 @@ ProxyPassReverse /json http://localhost:3000
    Now your JSON server should be all configured! The base route for it is http://cse135.online/json
 
    Test new URL http://cse135.online/json and http://cse135.online/json/posts
+
+4. Remove 3000 status for safty reason: `sudo ufw status numbered` (Ignore any 3000 rule that has a colon after it, we only need 3000 and 3000(v6))
+   `sudo ufw delete the_number_that_we_need`(let's say "sudo ufw delete 7") refresh the numbers with `sudo ufw status numbered` then delete the next one if needed
+
+
+### Sign up Postman
    
