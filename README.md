@@ -220,7 +220,20 @@ restart：`sudo pm2 restart json-server`
 delete：`sudo pm2 delete json-server`
 
 
+for some reason it was fine on local version, but after connect to site getting 403 forbidden
+
+We used the 
+
 ```
+curl -i -X POST https://cse135.online/json/sessions \
+  -H "Content-Type: application/json" \
+  -d '{"test":"modsec tuned"}'
+```
+
+in the terminal is still working fine
+
+
+````
 yanhua@CSE135-ss2-tap:/var/www/cse135.online/public_html/hw3$ curl -i -X POST https://cse135.online/json/sessions \
   -H "Content-Type: application/json" \
   -d '{"test":"modsec tuned"}'
@@ -243,4 +256,4 @@ ETag: W/"28-AAuNEm3gPLoBvd4J5Na36X1oZvE"
 {
   "test": "modsec tuned",
   "id": 29
-```
+````
