@@ -180,13 +180,41 @@ Example:
 
 These are the four basic operations you can perform on data.
 
-Action	Fullword	Meaning	                `HTTP Method in REST`	                    `JSON Server Example`
 
-'C'	     Create	    Add new data	        `POST`	                                    `POST /posts`
+## part 1
 
-'R'	     Read	    Retrieve data	        `GET`	                                    `GET /posts` or `GET /posts/1`
+ssh grader@cse135.online
 
-'U'	     Update	    Modify existing data	`PUT` (replace) / `PATCH` (partial update)	`PUT /posts/1` or `PATCH /posts/1`
-                                            
-'D'	     Delete	    Remove data	            `DELETE`	                                `DELETE /posts/1`
+id: grader
 
+password: Grader!PassWord8888 $$$
+
+
+server path:
+
+cd /var/www/cse135.online/public_html/hw3
+
+（`pm2 kill`， `sudo pm2 list`->`sudo pm2 delete all`）
+
+json-server:
+
+npx json-server db.json --port 3000
+
+
+API endpoints:
+
+https://cse135.online/json/sessions
+
+https://cse135.online/json/events
+
+
+
+`sudo pm2 startup`
+
+`sudo pm2 save`
+
+stop：`sudo pm2 stop json-server`
+
+restart：`sudo pm2 restart json-server`
+
+delete：`sudo pm2 delete json-server`
