@@ -1,4 +1,7 @@
 # cse-135-hw3
+## Team Members
+- Yanhua Shi
+- Nicole Liu
 
 ## Part 0
 
@@ -218,5 +221,21 @@ stop：`sudo pm2 stop json-server`
 restart：`sudo pm2 restart json-server`
 
 delete：`sudo pm2 delete json-server`
+
+## check point #2
+
+## working process: `https://docs.google.com/document/d/1JfXCUc5JfuDpm-Oms8A7u9Mm8UC-ymtF-fV-W_HF-yE/edit?usp=sharing`
+
+## Hosted URLs
+- Sessions API: https://cse135.online/api/sessions
+- Events API: https://cse135.online/api/events
+- Database Page: https://cse135.online/hw3/database.html
+- Data Visualization Page: https://cse135.online/hw3/hellodataviz.html
+
+## Submitted Files
+- database.html  
+- hellodataviz.html  
+
+
 
 
