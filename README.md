@@ -1,7 +1,19 @@
 # cse-135-hw3
+# CSE135 - HW3 Submission
+
 ## Team Members
 - Yanhua Shi
 - Nicole Liu
+
+## Server Information
+- Domain: https://cse135.online
+- ipaddr: 159.89.158.29
+- Apache is running, with ProxyPass configured to forward `/api/...` to Node.js server
+
+## Grader SSH Access
+- SSH: `ssh grader@cse135.online`
+- Password: `Grader!PassWord8888 $$$
+
 
 ## Part 0
 
