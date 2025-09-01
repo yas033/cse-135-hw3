@@ -225,7 +225,9 @@ delete：`sudo pm2 delete json-server`
 ## check point #2
 
 ## Part2 - Part3 - Part 4
-working process and notes (doc): `https://docs.google.com/document/d/1JfXCUc5JfuDpm-Oms8A7u9Mm8UC-ymtF-fV-W_HF-yE/edit?usp=sharing`
+
+working process and notes (doc): 
+https://docs.google.com/document/d/1JfXCUc5JfuDpm-Oms8A7u9Mm8UC-ymtF-fV-W_HF-yE/edit?usp=sharing
 
 ## Hosted URLs
 - Sessions API: https://cse135.online/api/sessions
